@@ -6,7 +6,11 @@
 #menu a {
     font-family: Dubai;
 }
-
+body{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
 #portada {
     background: url(https://hardcore-hermann-21428c.netlify.com/media/wp.jpg);
     background-repeat: no-repeat;
