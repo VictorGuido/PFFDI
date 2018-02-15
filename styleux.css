@@ -30,6 +30,7 @@ p {
     color: white;
 }
 h1 {
+    font-size: 30px;
     color: white;
 }
 
@@ -40,6 +41,12 @@ h1 {
 @media print{
     body {
         background: #fff !important;
+    }
+    p{
+        color: black;
+    }
+    h1{
+        color: black;
     }
     #Entrevista{
         display: none;
