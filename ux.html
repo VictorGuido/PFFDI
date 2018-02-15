@@ -10,6 +10,19 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
     <script src="js/accordion.js"></script>
+    <style>
+        body {
+            background: linear-gradient(132deg, #ec5218, #1665c1);
+            background-size: 400% 400%;
+            animation: BackgroundGradient 30s ease infinite;
+        }
+
+        @keyframes BackgroundGradient {
+            0% {background-position: 0 50%;}
+            50% {background-position: 100% 50%;}
+            100% {background-position: 0 50%;}
+        }
+    </style>
 </head>
 <body>
 <div class="ui top stackable menu" id="menu">
@@ -26,7 +39,7 @@
 </div>
 <div class="ui grid" style="padding: 1% 2% 0 2%">
     <div class="seven wide column" id="Entrevista" style="margin-top: 30px">
-        <h1 align="center">Entrevista al cliente</h1>
+        <h1 align="left">Entrevista al cliente</h1>
         <p align="justify">El ingeniero industrial Alberto Labrada Vergudo cuenta con una mestría en administración con especialidad en mercadotecnia, creando así la empresa en la cual ya lleva 20 años laborando.</p>
         <p align="justify">La empresa empezó con el nombre de Lasso Produciones, pero tiempo despues cambio el nombre a Servicios de Mercadeo del Noroeste.</p>
         <br>
@@ -80,9 +93,33 @@
     <div class="seven wide column" id="PuntosFuerte" style="margin-top: 30px">
         <div class="one wide column"></div>
         <h1 align="left">Puntos Fuertes</h1>
-        <p align="justify"> La letra hace contraste con los fondos <br> Buena estructura para una página empresarial <br> Buena tipografía <br> Agradable a la vista
-            <br> Buen uso de animaciones
-        </p>
+        <div class="ui middle aligned animated list">
+            <div class="item">
+                <div class="content">
+                    <div class="header"> - La letra hace contraste con los fondos</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="header"> - Buena estructura para una página empresarial</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="header"> - Buena tipografía</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="header"> - Agradable a la vista</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="header"> - Buen uso de animaciones</div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="one wide column"></div>
     <div id="PuntosDebiles" class="seven wide column" style="padding-top: 50px">
