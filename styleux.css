@@ -34,8 +34,14 @@ h1 {
 }
 
 @media print{
+    body {
+        background: #fff !important;
+    }
     #PuntosFuerte{
         text-align-last: justify;
+        width: 100%;
+        float: none;
+        -webkit-print-color-adjust: exact;
     }
     #menu{
         display: none;
