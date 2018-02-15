@@ -26,6 +26,13 @@
     font-family: Dubai;
 }
 
+p {
+    color: white;
+}
+h1 {
+    color: white;
+}
+
 @media print{
     #PuntosFuerte{
         text-align-last: justify;
