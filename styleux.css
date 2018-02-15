@@ -37,13 +37,22 @@ h1 {
     #PuntosFuerte{
         text-align-last: justify;
     }
-    #navbar{
+    #menu{
         display: none;
     }
     #portada{
         display: none;
     }
     #video{
+        display: none;
+    }
+    #img1{
+        display: none;
+    }
+    #img2{
+        display: none;
+    }
+    #img3{
         display: none;
     }
     #footer{
