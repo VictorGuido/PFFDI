@@ -41,6 +41,15 @@ h1 {
     body {
         background: #fff !important;
     }
+    #Entrevista{
+        display: none;
+    }
+    #affinity_map{
+        display: none;
+    }
+    #task_analisys{
+        display: none;
+    }
     #printtext{
         display: block;
     }
